@@ -11,9 +11,7 @@
   "dependencies": {
     "express": "^4.15.2",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
-  },
-  "devDependencies": {
+    "react-dom": "^15.5.4",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
