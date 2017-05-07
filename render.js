@@ -12,9 +12,10 @@ function render(req, res) {
     <link rel="stylesheet" href="/app.css" type="text/css" media="all" />
 </head>
 <body>
-    <section id="app">
+    <header>
         ${content}
-    </section>
+    </header>
+    <div id="app"></div>
     <script type="text/javascript" src="/app.js"></script>
 </body>
 </html>`;
