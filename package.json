@@ -4,7 +4,7 @@
   "description": "SSR (Server-Side-Rendering) sample",
   "main": "app.js",
   "scripts": {
-    "build": "babel components/App.js --out-file App.js",
+    "build": "babel components/App.js --out-file App.js && webpack",
     "start": "node app-server.js"
   },
   "author": "Korilakkuma <rilakkuma.san.xjapan@gmail.com>",
