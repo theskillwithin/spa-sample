@@ -13,6 +13,18 @@ app.get('/', (req, res, next) => {
     render(req, res);
 });
 
+app.get('/about', (req, res, next) => {
+    render(req, res);
+});
+
+app.get('/counter', (req, res, next) => {
+    render(req, res);
+});
+
+app.get('/counter/:count', (req, res, next) => {
+    render(req, res);
+});
+
 app.listen(port, () => {
     console.log(`Listening on port ${port} ...`);
 });
