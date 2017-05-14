@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
+import * as PropTypes from 'prop-types';
 
 export default class Counter extends Component {
     static CLASS_NAME = 'Counter';
 
+    static propTypes = {
+        match : PropTypes.object
+    };
+
     constructor(props) {
         super(props);
+
+        const count = parseInt(props.match.params.count);
+
         this.state = {
-            count : 0
+            count : isNaN(count) ? 0 : count
         };
     }
 
