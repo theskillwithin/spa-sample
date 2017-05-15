@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Counter from './components/Counter';
+import Router from './components/Router';
 
-ReactDOM.render(<Counter />, document.getElementById('app'));
+ReactDOM.render(<Router />, document.getElementById('app'));
